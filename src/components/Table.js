@@ -12,6 +12,7 @@ const Table = ({ sat }) => {
         </thead>
         <tbody>
          {sat.map((data,id) => {
+          //had data and id switched at one point so it didnt work
             console.log(sat)
             //console.log(data)
             console.log(data)
